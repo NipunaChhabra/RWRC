@@ -13,8 +13,8 @@
 		EA38FB42241CAB4C006E0667 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA38FB41241CAB4C006E0667 /* Assets.xcassets */; };
 		EA38FB45241CAB4C006E0667 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA38FB43241CAB4C006E0667 /* LaunchScreen.storyboard */; };
 		EA38FB4D241CAC10006E0667 /* tableOfHolidays.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA38FB4C241CAC10006E0667 /* tableOfHolidays.swift */; };
-		EA38FB4F241CAD70006E0667 /* Holiday.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA38FB4E241CAD70006E0667 /* Holiday.swift */; };
-		EA38FB51241CAD7B006E0667 /* HolidayRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA38FB50241CAD7B006E0667 /* HolidayRequest.swift */; };
+		EAB645D2241CB77900FA317A /* HolidayRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB645D0241CB77900FA317A /* HolidayRequest.swift */; };
+		EAB645D3241CB77900FA317A /* Holiday.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB645D1241CB77900FA317A /* Holiday.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,8 +26,8 @@
 		EA38FB44241CAB4C006E0667 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EA38FB46241CAB4C006E0667 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EA38FB4C241CAC10006E0667 /* tableOfHolidays.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tableOfHolidays.swift; sourceTree = "<group>"; };
-		EA38FB4E241CAD70006E0667 /* Holiday.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Holiday.swift; path = ../../weather/weather/Holiday.swift; sourceTree = "<group>"; };
-		EA38FB50241CAD7B006E0667 /* HolidayRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HolidayRequest.swift; path = ../../weather/weather/HolidayRequest.swift; sourceTree = "<group>"; };
+		EAB645D0241CB77900FA317A /* HolidayRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HolidayRequest.swift; sourceTree = "<group>"; };
+		EAB645D1241CB77900FA317A /* Holiday.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Holiday.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,11 +61,11 @@
 			isa = PBXGroup;
 			children = (
 				EA38FB38241CAB4C006E0667 /* AppDelegate.swift */,
+				EAB645D1241CB77900FA317A /* Holiday.swift */,
+				EAB645D0241CB77900FA317A /* HolidayRequest.swift */,
 				EA38FB3A241CAB4C006E0667 /* SceneDelegate.swift */,
 				EA38FB3E241CAB4C006E0667 /* Main.storyboard */,
 				EA38FB4C241CAC10006E0667 /* tableOfHolidays.swift */,
-				EA38FB4E241CAD70006E0667 /* Holiday.swift */,
-				EA38FB50241CAD7B006E0667 /* HolidayRequest.swift */,
 				EA38FB41241CAB4C006E0667 /* Assets.xcassets */,
 				EA38FB43241CAB4C006E0667 /* LaunchScreen.storyboard */,
 				EA38FB46241CAB4C006E0667 /* Info.plist */,
@@ -144,10 +144,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EAB645D2241CB77900FA317A /* HolidayRequest.swift in Sources */,
 				EA38FB39241CAB4C006E0667 /* AppDelegate.swift in Sources */,
-				EA38FB51241CAD7B006E0667 /* HolidayRequest.swift in Sources */,
+				EAB645D3241CB77900FA317A /* Holiday.swift in Sources */,
 				EA38FB3B241CAB4C006E0667 /* SceneDelegate.swift in Sources */,
-				EA38FB4F241CAD70006E0667 /* Holiday.swift in Sources */,
 				EA38FB4D241CAC10006E0667 /* tableOfHolidays.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
