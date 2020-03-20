@@ -1,15 +1,15 @@
 //
 //  AppDelegate.swift
-//  Holidays
+//  weather
 //
-//  Created by Nipuna Chhabra on 3/14/20.
+//  Created by Nipuna Chhabra on 3/20/20.
 //  Copyright © 2020 Nipuna. All rights reserved.
 //
 
 import UIKit
 
 @UIApplicationMain
- class AppDelegate: UIResponder, UIApplicationDelegate {
+class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
 
